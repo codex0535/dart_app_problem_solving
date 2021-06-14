@@ -1,5 +1,6 @@
-import 'package:dart_app/dart_app.dart' as dart_app;
+import 'dart:io';
 
 void main(List<String> arguments) {
-  print('Hello world: ${dart_app.calculate()}!');
+  String input = stdin.readLineSync();
+  print('Hi, Nama saya ' + input.toString() + '. Welcome to Flutter');
 }
